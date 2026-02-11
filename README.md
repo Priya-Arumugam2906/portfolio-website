@@ -1,6 +1,6 @@
 Portfolio code
 
-Personal Portfolio 💻
+Personal Portfolio 
 
 This is my personal portfolio website built using React JS to showcase my skills, projects, and contact information. The goal of this project was to create a modern, responsive website that represents my profile as a frontend developer.
 
