@@ -1,0 +1,133 @@
+.about {
+  padding: 100px 0;
+}
+
+.about-sections {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.about-left img {
+  width: 380px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  filter: brightness(0.95) contrast(1.05);
+}
+
+.about-right {
+  flex: 1;
+}
+
+.about-para p {
+  margin-bottom: 25px;
+  color: var(--text-dim);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.about-skills {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about-skill {
+  width: 100%;
+}
+
+.about-skill p {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: var(--text-main);
+}
+
+
+.about-skill hr {
+  height: 8px;
+  border: none;
+  background: var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+  transition: width 1s ease-in-out;
+}
+
+
+.about-achievements {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  background: var(--bg-card);
+  padding: 50px;
+  border-radius: 24px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-achievement h1 {
+  font-size: clamp(28px, 4vw, 40px);
+  background: var(--accent-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.about-achievement p {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+}
+
+
+
+@media (max-width: 1024px) {
+
+  .about-sections {
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .about-achievements {
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+.about-title{
+  margin-bottom: 20px;
+}
+
+
+  .about-left img {
+    display: none;
+  }
+
+  .about {
+    padding: 60px 0;
+  }
+
+  .about-para p {
+    font-size: 16px;
+  }
+
+  .about-achievement {
+    width: 100%;
+  }
+
+  .about-achievement h1 {
+    font-size: 32px;
+  }
+}
