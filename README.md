@@ -1,16 +1,36 @@
-# React + Vite
+Portfolio code
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal Portfolio 💻
 
-Currently, two official plugins are available:
+This is my personal portfolio website built using React JS to showcase my skills, projects, and contact information. The goal of this project was to create a modern, responsive website that represents my profile as a frontend developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## React Compiler
+Responsive design for all devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Smooth navigation with a clean UI
 
-## Expanding the ESLint configuration
+About section with skills and experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Projects section with live demo and GitHub links
+
+Contact form for direct communication
+
+Resume download option
+
+Tech Stack
+
+React JS
+
+JavaScript
+
+HTML & CSS
+
+REST API (Web3Forms for contact form)
+
+Run Locally
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+npm install
+npm install react-anchor-link-smooth-scroll
+npm run dev

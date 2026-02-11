@@ -3,6 +3,7 @@ import "./Hero.css";
 import profile_img from "../../assets/profile_img.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
+
 const Hero = () => {
   return (
     <div className="hero container" id="home">
@@ -28,7 +29,7 @@ const Hero = () => {
           </AnchorLink>
         </div>
 
-        <a href="/resume.pdf" target="_blank" className="hero-resume">
+        <a href="/Priya-Frontend-Developer-Resume.pdf" target="_blank" className="hero-resume">
           View My Resume
         </a>
       </div>

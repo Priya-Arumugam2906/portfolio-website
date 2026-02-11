@@ -16,10 +16,10 @@ const Footer = () => {
           <a href="https://github.com/Priya-Arumugam2906" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/priya-frontend-developer" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/Priya-Frontend-Developer-Resume.pdf" download>
             Download Resume
           </a>
         </div>
